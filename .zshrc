@@ -1,8 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# powerline
-
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/irrt/.oh-my-zsh
 
@@ -65,6 +63,7 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+powerline-daemon -q
 source /usr/local/lib/python3.6/site-packages/powerline/bindings/zsh/powerline.zsh 
 source $(dirname $(gem which colorls))/tab_complete.sh
 
