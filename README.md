@@ -2,7 +2,7 @@
 
 macOS with iTerm2, oh-my-zsh, powerline, inconsolata, etc.
 
-```
+```bash
 $ # iTerm2 - https://iterm2.com/downloads.html
 $ # fonts
 $ git clone https://github.com/powerline/fonts
