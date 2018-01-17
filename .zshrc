@@ -66,6 +66,7 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 source /usr/local/lib/python3.6/site-packages/powerline/bindings/zsh/powerline.zsh 
+source $(dirname $(gem which colorls))/tab_complete.sh
 
 # User configuration
 
@@ -95,3 +96,12 @@ source /usr/local/lib/python3.6/site-packages/powerline/bindings/zsh/powerline.z
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias ls='colorls'
+alias top='htop'
+alias ll='colorls -lA --sd'
+alias vi='vim'
+alias httpserver='sudo python2 -m SimpleHTTPServer 80'
+alias ccat='pygmentize -g -O style=colorful,linenos=1'
+
+# init working dir
+cd /Users/irrt/jackson
